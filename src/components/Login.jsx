@@ -158,7 +158,7 @@ const Login = () => {
     
       {!forgotPassword ? (
       
-        <div className="w-3/4 md:w-[0vw] h-auto mx-auto border bg-white border-gray-300   text-center rounded-xl shadow-2xl">
+        <div className="w-3/4 md:w-[40vw] h-auto mx-auto border bg-white border-gray-300   text-center rounded-xl shadow-2xl">
           <h1 className="text-2xl py-8  text-center text-indigo-700 font-bold">
             {!signIn ? "Sign up" : "Login"}
           </h1>
