@@ -146,7 +146,7 @@ const Login = () => {
       <div className="w-full absolute top-2   text-center text-3xl mt-4 text-indigo-700 font-bold  mb-[100px] ">
       <Typewriter
         options={{
-          strings: ['Welcome to My App', 'Track your Expenses', 'Track Your Daily Expenses 💸 ',
+          strings: ['Welcome to My App', 'Track Your Daily Expenses 💸 ',
   'Visualize Your Spending 📊',
   'Save More, Spend Smarter 💡',
   'Your Money, Your Control 💼',],
@@ -158,7 +158,7 @@ const Login = () => {
     
       {!forgotPassword ? (
       
-        <div className="w-3/4 md:w-[40vw] h-auto mx-auto border bg-white border-gray-300   text-center rounded-xl shadow-2xl">
+        <div className="w-3/4 md:w-[0vw] h-auto mx-auto border bg-white border-gray-300   text-center rounded-xl shadow-2xl">
           <h1 className="text-2xl py-8  text-center text-indigo-700 font-bold">
             {!signIn ? "Sign up" : "Login"}
           </h1>
